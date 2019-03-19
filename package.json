@@ -3,12 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.24.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "react-dots-loader": "^1.1.4",
+    "react-scripts": "2.1.8",
+    "semantic-ui-react": "^0.85.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "nodemon server/index.js",
+    "online": "node server/index.js", 
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -21,5 +29,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }

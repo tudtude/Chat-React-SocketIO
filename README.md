@@ -11,4 +11,6 @@ This app was basic chat application dose not incluse database, it was fucus on R
   ```
 
 ## Dev mode
-Befor run 
+Befor run this on your machine you need to change some code, due with this code was apply to  https://chat-react-socket.herokuapp.com/, that was online system/ production mode.
+
+

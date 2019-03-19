@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Chat application with React and socket.io
 
-## Available Scripts
+This app was basic chat application dose not incluse database, it was fucus on React and socket.io
 
-In the project directory, you can run:
+## Get install
+
 
 ### `npm start`
 

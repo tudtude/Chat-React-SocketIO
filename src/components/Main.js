@@ -6,8 +6,8 @@ import LoginPage from '../components/LoginPage/LoginPage'
 
 
 // ***** it will used in dev mode
-const socketUrl = 'http://localhost/' 
-// const socketUrl = '/'
+// const socketUrl = 'http://localhost/' 
+const socketUrl = '/'
 
 export class Main extends Component {
     state = {

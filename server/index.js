@@ -3,7 +3,7 @@ const app = express()
 const server = require('http').createServer(app)
 const io = require('socket.io')(server)
 const socketManage = require('./socketManage')(io)
-const PORT = process.env.PORT || 80
+const PORT = process.env.PORT || 4000
 const path = require('path')
 
 

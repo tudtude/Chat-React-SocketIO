@@ -6,7 +6,8 @@ import LoginPage from '../components/LoginPage/LoginPage'
 
 
 // ***** it will used in dev mode
-// const socketUrl = 'http://localhost/' 
+// const socketUrl = 'http://localhost:4000/'
+// in dev environment replace 4000 with the custom port specified in server/index.js
 const socketUrl = '/'
 
 export class Main extends Component {
